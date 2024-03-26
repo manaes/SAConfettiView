@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5CB7A5FC2BB267F300DAC8FE /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB7A5FC2BB267F300DAC8FE /* SAConfettiView_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAConfettiView_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB7A5FF2BB267F300DAC8FE /* SAConfettiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAConfettiView.h; sourceTree = "<group>"; };
 		5CB7A6002BB267F300DAC8FE /* SAConfettiView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SAConfettiView.docc; sourceTree = "<group>"; };
 		5CB7A6162BB268A900DAC8FE /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		5CB7A5FD2BB267F300DAC8FE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CB7A5FC2BB267F300DAC8FE /* SAConfettiView.framework */,
+				5CB7A5FC2BB267F300DAC8FE /* SAConfettiView_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5CB7A5FB2BB267F300DAC8FE /* SAConfettiView */ = {
+		5CB7A5FB2BB267F300DAC8FE /* SAConfettiView_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CB7A6102BB267F300DAC8FE /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildConfigurationList = 5CB7A6102BB267F300DAC8FE /* Build configuration list for PBXNativeTarget "SAConfettiView_iOS" */;
 			buildPhases = (
 				5CB7A5F72BB267F300DAC8FE /* Headers */,
 				5CB7A5F82BB267F300DAC8FE /* Sources */,
@@ -86,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = SAConfettiView;
+			name = SAConfettiView_iOS;
 			productName = SAConfettiView;
-			productReference = 5CB7A5FC2BB267F300DAC8FE /* SAConfettiView.framework */;
+			productReference = 5CB7A5FC2BB267F300DAC8FE /* SAConfettiView_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5CB7A5F62BB267F300DAC8FE /* Build configuration list for PBXProject "SAConfettiView" */;
+			buildConfigurationList = 5CB7A5F62BB267F300DAC8FE /* Build configuration list for PBXProject "SAConfettiView_iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CB7A5FB2BB267F300DAC8FE /* SAConfettiView */,
+				5CB7A5FB2BB267F300DAC8FE /* SAConfettiView_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -355,7 +355,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CB7A5F62BB267F300DAC8FE /* Build configuration list for PBXProject "SAConfettiView" */ = {
+		5CB7A5F62BB267F300DAC8FE /* Build configuration list for PBXProject "SAConfettiView_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CB7A60E2BB267F300DAC8FE /* Debug */,
@@ -364,7 +364,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CB7A6102BB267F300DAC8FE /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+		5CB7A6102BB267F300DAC8FE /* Build configuration list for PBXNativeTarget "SAConfettiView_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CB7A6112BB267F300DAC8FE /* Debug */,
