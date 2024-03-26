@@ -1,5 +1,5 @@
 //
-//  SAConfettiView.swift
+//  ConfettiView.swift
 //  Pods
 //
 //  Created by Sudeep Agarwal on 12/14/15.
@@ -9,7 +9,7 @@
 import QuartzCore
 import UIKit
 
-open class SAConfettiView: UIView {
+open class ConfettiView: UIView {
   public enum ConfettiType {
     case confetti
     case triangle
@@ -85,7 +85,7 @@ open class SAConfettiView: UIView {
       return customImage
     }
 
-    let path = Bundle(for: SAConfettiView.self).path(forResource: "SAConfettiView", ofType: "bundle")
+    let path = Bundle(for: ConfettiView.self).path(forResource: "SAConfettiView", ofType: "bundle")
     let bundle = Bundle(path: path!)
     let imagePath = bundle?.path(forResource: fileName, ofType: "png")
     let url = URL(fileURLWithPath: imagePath!)

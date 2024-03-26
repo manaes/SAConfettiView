@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5CB7A5FB2BB267F300DAC8FE"
-               BuildableName = "SAConfettiView_iOS.framework"
-               BlueprintName = "SAConfettiView_iOS"
-               ReferencedContainer = "container:SAConfettiView_iOS.xcodeproj">
+               BuildableName = "SAConfettiView.framework"
+               BlueprintName = "SAConfettiView"
+               ReferencedContainer = "container:SAConfettiView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,7 +38,7 @@
                BlueprintIdentifier = "5CB7A6052BB267F300DAC8FE"
                BuildableName = "SAConfettiViewTests.xctest"
                BlueprintName = "SAConfettiViewTests"
-               ReferencedContainer = "container:SAConfettiView_iOS.xcodeproj">
+               ReferencedContainer = "container:SAConfettiView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5CB7A5FB2BB267F300DAC8FE"
-            BuildableName = "SAConfettiView_iOS.framework"
-            BlueprintName = "SAConfettiView_iOS"
-            ReferencedContainer = "container:SAConfettiView_iOS.xcodeproj">
+            BuildableName = "SAConfettiView.framework"
+            BlueprintName = "SAConfettiView"
+            ReferencedContainer = "container:SAConfettiView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
