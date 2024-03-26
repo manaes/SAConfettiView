@@ -9,7 +9,7 @@
 import UIKit
 import QuartzCore
 
-public class SAConfettiView: UIView {
+class SAConfettiView: UIView {
 
     public enum ConfettiType {
         case confetti
